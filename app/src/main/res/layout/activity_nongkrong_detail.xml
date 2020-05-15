@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nongkrong_detail">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">>
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/mrs" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:paddingTop="200dp"
+            android:text="MRS SIPPY"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="220dp"
+            android:layout_marginHorizontal="8dp"
+            android:text="Beach Club And Western Restaurant"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="235dp"
+            android:layout_marginHorizontal="8dp"
+            android:text="Seminyak, kuta utara , badung"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="257dp"
+            android:layout_marginHorizontal="8dp"
+            android:text="Open"
+            android:textColor="#1EC218" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="257dp"
+            android:layout_marginHorizontal="40dp"
+            android:text=", 10AM - 9PM"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="257dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="290dp"
+            android:layout_marginHorizontal="8dp"
+            android:text="Tap To Rate"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="305dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="370dp"
+            app:srcCompat="@android:drawable/star_big_off" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="305dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="310dp"
+            app:srcCompat="@android:drawable/star_big_off" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="305dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="240dp"
+            app:srcCompat="@android:drawable/star_big_off" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="305dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="170dp"
+            app:srcCompat="@android:drawable/star_big_off" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="305dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="100dp"
+            app:srcCompat="@android:drawable/star_big_off" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="329dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="24dp"
+            android:text="Write A Review"
+            android:textColor="#F81111" />
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="348dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="360dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="24dp"
+            android:text="MENU"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="260dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="250dp"
+            app:srcCompat="@drawable/menu" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="550dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="24dp"
+            android:text="Details"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="570dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="24dp"
+            android:text="AVERAGE COST" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="24dp"
+            android:paddingTop="590dp"
+            android:layout_marginHorizontal="8dp"
+            android:text="Rp.200.000 for two people (approx.)"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="24dp"
+            android:paddingTop="610dp"
+            android:text="Cash And Cards accepted"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginVertical="690dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="290dp"
+            android:background="#7AA87A"
+            android:text="Home" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginVertical="690dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="150dp"
+            android:background="#7AA87A"
+            android:text="Category" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="match_parent"
+            android:layout_marginVertical="690dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="24dp"
+            android:background="#7AA87A"
+            android:text="Chat" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

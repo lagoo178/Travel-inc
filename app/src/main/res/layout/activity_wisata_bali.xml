@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wisata_bali">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/pantai" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginVertical="160dp"
+            android:layout_marginHorizontal="10dp"
+            android:text="Tempat Wisata"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="190dp"
+            android:layout_marginHorizontal="12dp"
+            android:text="Paling banyak dikunjungi and Review tinggi tempat nongkrong         di Bali!"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/rnama"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_marginVertical="200dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="171dp"
+            android:layout_height="80dp"
+            android:layout_marginVertical="255dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="270dp"
+            app:srcCompat="@drawable/mrs" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="250dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="24dp"
+            android:text="Closed"
+            android:textColor="#FB0707" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginVertical="270dp"
+            android:layout_marginTop="24dp"
+            android:text="MRS SIPPY"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginVertical="290dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="24dp"
+            android:text="Beach Club and Western Restaurant, 	seminyak,kuta utara,badung 	Rp.200.000 for two people "
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/remail"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_marginVertical="320dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginVertical="370dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="270dp"
+            app:srcCompat="@drawable/six" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginVertical="375dp"
+            android:layout_marginTop="24dp"
+            android:text="Open"
+            android:textColor="#1EC218"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginVertical="395dp"
+            android:text="Double Six Beach"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginVertical="415dp"
+            android:layout_marginTop="24dp"
+            android:text="Relaxed beach popular with travelers offering 	umbrella rentals,live music, and a chill ambiance. 	Legian,seminyak,kuta,Kab.Badung, Bali 	Rp.100.000 for two people"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/recopass"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_marginVertical="475dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginVertical="525dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="270dp"
+            app:srcCompat="@drawable/monkey" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Closed"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginVertical="520dp"
+            android:textColor="#FB0707" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginVertical="540dp"
+            android:text="Sacred Monkey Forest Sanctuary"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginVertical="560dp"
+            android:text="Nature Reserves and temple complex has 	approximataley 749 Monkeys. 	Ubud, Bali 	Rp.86.000 for one people"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="270dp"
+            android:layout_marginVertical="650dp"
+            android:background="#7AA87A"
+            android:text="Home" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginVertical="650dp"
+            android:layout_marginRight="150dp"
+            android:background="#7AA87A"
+            android:text="Category" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginVertical="650dp"
+            android:background="#7AA87A"
+            android:text="Chat" />
+    </RelativeLayout><![CDATA[]]>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "544015911975",
+    "firebase_url": "https://travel-inc-b9384.firebaseio.com",
+    "project_id": "travel-inc-b9384",
+    "storage_bucket": "travel-inc-b9384.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544015911975:android:e49a1a1d01031161b61202",
+        "android_client_info": {
+          "package_name": "com.trvl.travelinc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544015911975-f436e6rtoqmfkct90jpqpji639479kb0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trvl.travelinc",
+            "certificate_hash": "fc1fa9f2c9a5e027d1da7e67678c8e3ed8c98ecc"
+          }
+        },
+        {
+          "client_id": "544015911975-p34p319bse0kn5jlu03n2fq81ur9dos9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7hiMTH8D_DtcNqkbKb74KQcZ3lbCbR0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544015911975-p34p319bse0kn5jlu03n2fq81ur9dos9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

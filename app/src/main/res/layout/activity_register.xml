@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7FAB7D"
+    tools:context=".register">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="410dp"
+        android:layout_height="617dp"
+        android:layout_marginEnd="8dp"
+        android:background="#7FAB7D"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingTop="20dp"
+        android:paddingRight="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="34dp" />
+
+        <Button
+            android:id="@+id/sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#7FAB7D"
+            android:text="SIGN IN"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="37dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:text="Travel Inc"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#1F432B"
+            android:textSize="36sp" />
+
+        <EditText
+            android:id="@+id/rnama"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:ems="10"
+            android:hint="Nama"
+            android:inputType="textPersonName"
+            android:textColor="#1F432B" />
+
+        <EditText
+            android:id="@+id/runame"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:ems="10"
+            android:hint="Username"
+            android:includeFontPadding="false"
+            android:inputType="textPersonName"
+            android:textAlignment="viewStart"
+            android:textColor="#1F432B"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/remail"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:textColor="#1F432B" />
+
+        <EditText
+            android:id="@+id/repass"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            app:passwordToggleEnabled="true"
+            android:textColor="#1F432B"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/recopass"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:ems="10"
+            android:hint="Confirm Password"
+            app:passwordToggleEnabled="true"
+            android:inputType="textPassword"
+            android:textColor="#1F432B" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="53dp" />
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="194dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="82dp"
+            android:layout_marginEnd="82dp"
+            android:layout_marginBottom="158dp"
+            android:background="#567856"
+            android:text="SIGN UP"
+            android:textColor="#FFFFFF"
+            android:onClick="buttonIsClicked"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="68dp"
+        android:layout_height="28dp"
+        android:orientation="horizontal" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

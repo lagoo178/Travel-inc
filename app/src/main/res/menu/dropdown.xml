@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dropdown_kota1"
+        android:title="Jakarta"/>
+    <item
+        android:id="@+id/dropdown_kota2"
+        android:title="Bali"/>
+    <item
+        android:id="@+id/dropdown_kota3"
+        android:title="Jogjakarta"/>
+</menu>

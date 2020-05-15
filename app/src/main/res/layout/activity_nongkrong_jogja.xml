@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nongkrong_jogja">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/warkopsemesta" />
+
+        <TextView
+            android:id="@+id/textView81"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="180dp"
+            android:layout_marginLeft="10dp"
+            android:text="Tempat Nongkrong"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView82"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="200dp"
+            android:layout_marginLeft="10dp"
+            android:text="Paling banyak dikunjungi dan Review tinggi tempat nongkrong         di Yogyakarta!"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editText14"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:layout_marginVertical="220dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine" />
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:layout_marginVertical="250dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="270dp"
+            app:srcCompat="@drawable/tap" />
+
+        <TextView
+            android:id="@+id/textView84"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="250dp"
+            android:layout_marginLeft="157dp"
+            android:layout_marginRight="30dp"
+            android:text="Open"
+            android:textColor="#1EC218" />
+
+        <TextView
+            android:id="@+id/textView86"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="270dp"
+            android:layout_marginLeft="157dp"
+            android:layout_marginRight="0dp"
+            android:text="Tap House Beer Garden and Beer House"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView87"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:layout_marginVertical="290dp"
+            android:layout_marginLeft="157dp"
+            android:layout_marginRight="0dp"
+            android:text="Hal yang unik dari tempat yang satu ini adalah desain interior yang sengaja dibuat seperti bangunan yang sudah tidak digunakan. Lokasinya itu sendiri berada di Jl, Jlagran nomor 18"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editText15"
+            android:layout_width="match_parent"
+            android:layout_height="19dp"
+            android:layout_marginVertical="370dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine" />
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="match_parent"
+            android:layout_marginVertical="390dp"
+            android:layout_height="101dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="270dp"
+            app:srcCompat="@drawable/warkopsemesta" />
+
+        <TextView
+            android:id="@+id/textView88"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="390dp"
+            android:layout_marginLeft="157dp"
+            android:layout_marginRight="0dp"
+            android:text="Open"
+            android:textColor="#1EC218" />
+
+        <TextView
+            android:id="@+id/textView91"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="410dp"
+            android:layout_marginLeft="157dp"
+            android:layout_marginRight="0dp"
+            android:text="Warkop Semesta"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView90"
+            android:layout_width="match_parent"
+            android:layout_height="136dp"
+            android:layout_marginVertical="430dp"
+            android:layout_marginLeft="157dp"
+            android:layout_marginRight="0dp"
+            android:text="Meskipun memiliki nama warung kopi, namun bukan berarti bahwa menu yang dihidangkannya hanya kopi saja, pasalnya tempat ini juga menyediakan beragam jenis menu makanan serta minuman lainnya.Lokasi di Jl. Abu Bakar Ali nomor 2, Kotabaru, Yogyakarta."
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editText16"
+            android:layout_width="460dp"
+            android:layout_height="29dp"
+            android:layout_marginVertical="540dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="640dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="270dp"
+            android:background="#7AA87A"
+            android:text="Home" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="640dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="150dp"
+            android:background="#7AA87A"
+            android:text="Category" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="640dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="24dp"
+            android:background="#7AA87A"
+            android:text="Chat" />
+    </RelativeLayout><![CDATA[]]>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

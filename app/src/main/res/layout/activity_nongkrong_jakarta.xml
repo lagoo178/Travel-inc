@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nongkrong_jakarta">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/lucky" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="180dp"
+                android:layout_marginLeft="15dp"
+                android:text="Tempat Nongkrong"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="200dp"
+                android:layout_marginLeft="15dp"
+                android:text="Paling banyak dikunjungi and Review tinggi tempat nongkrong         di Jakarta!"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_marginVertical="230dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="116dp"
+                android:layout_marginVertical="250dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="290dp"
+                app:srcCompat="@drawable/lucky" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="265dp"
+                android:layout_marginLeft="132dp"
+                android:layout_marginRight="90dp"
+                android:text="Open"
+                android:textColor="#1EC218" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="280dp"
+                android:layout_marginLeft="132dp"
+                android:layout_marginRight="90dp"
+                android:text="Lucky Cat Coffee and Kitchen"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:layout_marginVertical="300dp"
+                android:layout_marginLeft="132dp"
+                android:layout_marginRight="5dp"
+                android:text="kedai kopi yang Instagrammable dan sedang hits di Jakarta.   Parkir Selatan Plaza Festival, Jl. H. R. Rasuna Said No.C22, RT.2/RW.5, Karet Kuningan, Kecamatan Setiabudi, Kota Jakarta Selatan"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_marginVertical="375dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:layout_marginVertical="400dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="290dp"
+                app:srcCompat="@drawable/southbox" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="405dp"
+                android:layout_marginLeft="132dp"
+                android:layout_marginRight="90dp"
+                android:text="Open"
+                android:textColor="#1EC218" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="420dp"
+                android:layout_marginLeft="132dp"
+                android:layout_marginRight="90dp"
+                android:text="Southbox"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:layout_marginVertical="435dp"
+                android:layout_marginLeft="132dp"
+                android:layout_marginRight="2dp"
+                android:text="Ada sebanyak 33 food and beverage tenant di Southbox.Southbox berlokasi di Jalan Prapanca Raya No. 18, Kebayoran Baru, Jakarta Selatan."
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/editText10"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_marginVertical="495dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginVertical="520dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="290dp"
+                app:srcCompat="@drawable/lucy" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="520dp"
+                android:layout_marginLeft="132dp"
+                android:layout_marginRight="90dp"
+                android:text="Open"
+                android:textColor="#1EC218" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="535dp"
+                android:layout_marginLeft="132dp"
+                android:layout_marginRight="90dp"
+                android:text="Lucy In The Sky"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:layout_marginVertical="550dp"
+                android:layout_marginLeft="132dp"
+                android:layout_marginRight="2dp"
+                android:text="Bar yang keren dan hits untuk nongkrong bersama dengan teman-teman.Gedung Fairgrounds Lt.2 Jalan Lingkar SCBD, Jl. Jend. Sudirman No.14, RT.5/RW.3, Senayan, Kec. Kby. Baru, Kota Jakarta Selatan"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="630dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="270dp"
+                android:background="#7AA87A"
+                android:text="Home" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="630dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="150dp"
+                android:background="#7AA87A"
+                android:text="Category" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginVertical="630dp"
+                android:background="#7AA87A"
+                android:text="Chat" />
+        </RelativeLayout><![CDATA[]]>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
