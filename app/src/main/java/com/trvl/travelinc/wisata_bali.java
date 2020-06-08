@@ -19,7 +19,7 @@ public class wisata_bali extends AppCompatActivity {
         public String thumb_image;
         user1(){ }
 
-        public Users(String name, String status, String image,String thumb_image) {
+        public user1(String name, String status, String image, String thumb_image) {
             this.name = name;
             this.status = status;
             this.image = image;

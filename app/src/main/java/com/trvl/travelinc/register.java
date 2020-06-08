@@ -26,7 +26,7 @@ import com.google.firebase.iid.FirebaseInstanceId;
 import java.util.HashMap;
 import java.util.Map;
 
-public class register extends AppCompatActivity {
+public class    register extends AppCompatActivity {
 
     FirebaseAuth mauth;
     EditText inputNama, inputUsername,inputEmail, inputPassword, inputConfirm ;

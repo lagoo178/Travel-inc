@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <item
-        android:id="@+id/dropdown_kota1"
-        android:title="Jakarta"/>
+        android:id="@+id/menuProfile"
+        android:icon="@drawable/ic_person_white_24dp"
+        android:title="My Profile"
+        app:showAsAction="always" />
     <item
-        android:id="@+id/dropdown_kota2"
-        android:title="Bali"/>
-    <item
-        android:id="@+id/dropdown_kota3"
-        android:title="Jogjakarta"/>
+        android:id="@+id/logout"
+        android:title="Log Out"/>
 </menu>
